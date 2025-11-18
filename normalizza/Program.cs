@@ -24,7 +24,6 @@ namespace normalizza
                 }
             }
 
-            Console.Write("Il secondo vettore è " + v2);
             return v2;
 
         }
@@ -32,7 +31,7 @@ namespace normalizza
         {
             int[] v1 = { 4, 5, 2, 8, 5 };
 
-            normalizza(v1);
+            Console.Write("Il secondo vettore è " + normalizza(v1)); 
         }
     }
 }
